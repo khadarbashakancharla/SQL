@@ -17,4 +17,4 @@ from
 group by
     s.student_name,s.student_name,sub.subject_name
 order by 
-    student_id, subject_name             
+    student_id, subject_name;             
