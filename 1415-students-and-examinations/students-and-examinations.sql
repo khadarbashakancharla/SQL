@@ -3,7 +3,7 @@ select
     s.student_id,
     s.student_name,
     sub.subject_name,
-    coalesce(count(e.subject_name),0) as attended_exams
+    count(e.subject_name) as attended_exams
 from 
     Students s
         cross join
